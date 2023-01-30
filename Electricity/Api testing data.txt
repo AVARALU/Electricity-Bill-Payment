@@ -1,0 +1,338 @@
+add customer
+{
+  "aadhaarNumber": 1231232,
+  "email": "ftring@gmail.com",
+  "firstName": "string",
+  "gender": "string",
+  "lastName": "string",
+  "middleName": "string",
+  "mobileNumber": "9900123129",
+  "password": "string",
+  "userId": 5,
+  "userName": "string"
+}
+
+submit reading
+
+{
+  "pricePerUnits": 10.8,
+  "readingDate": "2023-01-28T14:59:49.423Z",
+  "readingForConnection": {
+ "connectionId": 4,
+  "consumerNumber": -6219690111159095000,
+  "customerConnection": {
+    "userId": 1,
+    "userName": "omp",
+    "password": "123456",
+    "aadhaarNumber": 2000123,
+    "firstName": "Om",
+    "middleName": "P",
+    "lastName": "Sharma",
+    "mobileNumber": "9900123189",
+    "email": "Xyz123@gmail.com",
+    "gender": "Male"
+  },
+  "connectionAddress": {
+    "addressId": 2,
+    "flatOrHouseNumber": 345,
+    "buildingName": "1/23,8th cross xyz city",
+    "landmark": "xyz",
+    "village": "xyz",
+    "taluk": "Bichkuna",
+    "district": "telengana",
+    "state": "telangana",
+    "pincode": "12345"
+  },
+  "connectionType": "NON_INDUSTRIAL",
+  "applicationDate": "2023-01-28T14:54:26.772+00:00",
+  "connectionDate": "2023-01-28T14:54:26.772+00:00",
+  "connectionStatus": "ACTIVE"
+  },
+  "readingId": 34,
+  "readingPhoto": "string",
+  "unitsConsumed": 2330
+}
+
+//generate bill
+
+{
+  "pricePerUnits": 34,
+  "readingDate": "2023-01-26T16:13:57.545Z",
+  "readingForConnection": {
+    "applicationDate": "2023-01-26T16:13:57.545Z",
+    "connectionAddress": {
+      "addressId": 67,
+      "buildingName": "string",
+      "district": "string",
+      "flatOrHouseNumber": 4656,
+      "landmark": "string",
+      "pincode": "string",
+      "state": "string",
+      "taluk": "string",
+      "village": "string"
+    },
+    "connectionDate": "2023-01-26T16:13:57.545Z",
+    "connectionId": 67,
+    "connectionStatus": "ACTIVE",
+    "connectionType": "NON_INDUSTRIAL",
+    "consumerNumber": 567,
+    "customerConnection": {
+      "aadhaarNumber": 2345678765,
+      "email": "string12342@gmail.com",
+      "firstName": "string",
+      "gender": "string",
+      "lastName": "string",
+      "middleName": "string",
+      "mobileNumber": "29309403434",
+      "password": "string",
+      "userId": 678,
+      "userName": "string"
+    }
+  },
+  "readingId": 1,
+  "readingPhoto": "string",
+  "unitsConsumed": 2330
+}
+
+payment 
+{
+  "billPayment": {
+    "billAmount": 0,
+    "billDate": "2023-01-26T17:32:12.007Z",
+    "billDueDate": "2022-09-28",
+    "billForReading": {
+      "pricePerUnits": 34,
+      "readingDate": "2023-01-26T17:32:12.007Z",
+      "readingForConnection": {
+        "applicationDate": "2023-01-26T17:32:12.007Z",
+        "connectionAddress": {
+          "addressId": 67,
+          "buildingName": "string",
+          "district": "string",
+          "flatOrHouseNumber": 4656,
+          "landmark": "string",
+          "pincode": "string",
+          "state": "string",
+          "taluk": "string",
+          "village": "string"
+        },
+        "connectionDate": "2023-01-26T17:32:12.007Z",
+        "connectionId": 67,
+        "connectionStatus": "ACTIVE",
+        "connectionType": "NON_INDUSTRIAL",
+        "consumerNumber": 567,
+        "customerConnection": {
+          "aadhaarNumber": 234567865,
+          "email": "string123422@gmail.com",
+          "firstName": "string",
+          "gender": "string",
+          "lastName": "string",
+          "middleName": "string",
+          "mobileNumber": "29309403434",
+          "password": "string",
+          "userId": 1,
+          "userName": "string"
+        }
+      },
+      "readingId": 23,
+      "readingPhoto": "string",
+      "unitsConsumed": 2330
+    },
+    "billId": 1,
+    "unitsConsumed": 2330
+  },
+  "latePaymentCharges": 456,
+  "paymentDate": "2023-01-26T17:32:12.007Z",
+  "paymentId": 2,
+  "paymentMode": "CREDIT",
+  "status": "SUCCESS",
+  "totalPaid": 45
+}
+
+
+  "userId": 5,
+  "userName": "Jhon123",
+  "password": "123456",
+  "aadhaarNumber": 1231232,
+  "firstName": "Jhon",
+  "middleName": "xyz",
+  "lastName": "gate",
+  "mobileNumber": "9900123129",
+  "email": "ftring@gmail.com",
+  "gender": "Male"
+
+
+New Connection 
+
+{
+  "applicationDate": "2023-01-28T14:45:23.332Z",
+  "connectionAddress": {
+    "addressId": 2,
+    "buildingName": "string",
+    "district": "string",
+    "flatOrHouseNumber": 345,
+    "landmark": "string",
+    "pincode": "string",
+    "state": "string",
+    "taluk": "string",
+    "village": "string"
+  },
+  "connectionDate": "2023-01-28T14:45:23.332Z",
+  "connectionId": 452,
+  "connectionStatus": "ACTIVE",
+  "connectionType": "NON_INDUSTRIAL",
+  "consumerNumber": 1234,
+  "customerConnection": {
+      "userId": 5,
+  "userName": "Jhon123",
+  "password": "123456",
+  "aadhaarNumber": 1231232,
+  "firstName": "Jhon",
+  "middleName": "xyz",
+  "lastName": "gate",
+  "mobileNumber": "9900123129",
+  "email": "ftring@gmail.com",
+  "gender": "Male"
+  }
+}
+
+connection
+
+{
+  "connectionId": 4,
+  "consumerNumber": -6219690111159095000,
+  "customerConnection": {
+    "userId": 1,
+    "userName": "omp",
+    "password": "123456",
+    "aadhaarNumber": 2000123,
+    "firstName": "Om",
+    "middleName": "P",
+    "lastName": "Sharma",
+    "mobileNumber": "9900123189",
+    "email": "Xyz123@gmail.com",
+    "gender": "Male"
+  },
+  "connectionAddress": {
+    "addressId": 2,
+    "flatOrHouseNumber": 345,
+    "buildingName": "1/23,8th cross xyz city",
+    "landmark": "xyz",
+    "village": "xyz",
+    "taluk": "Bichkuna",
+    "district": "telengana",
+    "state": "telangana",
+    "pincode": "12345"
+  },
+  "connectionType": "NON_INDUSTRIAL",
+  "applicationDate": "2023-01-28T14:54:26.772+00:00",
+  "connectionDate": "2023-01-28T14:54:26.772+00:00",
+  "connectionStatus": "ACTIVE"
+}
+
+
+
+//////
+
+"billId": 1,
+  "billDate": "2023-01-28T15:16:33.373+00:00",
+  "billDueDate": null,
+  "unitsConsumed": 2330,
+  "billAmount": 10485,
+  "billForReading": {
+    "readingId": 1,
+    "unitsConsumed": 2330,
+    "readingPhoto": "Photo",
+    "readingDate": "2023-01-28T15:12:11.557+00:00",
+    "pricePerUnits": 4.5,
+    "readingForConnection": {
+      "connectionId": 4,
+      "consumerNumber": -6219690111159095000,
+      "customerConnection": {
+        "userId": 1,
+        "userName": "omp",
+        "password": "123456",
+        "aadhaarNumber": 2000123,
+        "firstName": "Om",
+        "middleName": "P",
+        "lastName": "Sharma",
+        "mobileNumber": "9900123189",
+        "email": "Xyz123@gmail.com",
+        "gender": "Male"
+      },
+      "connectionAddress": {
+        "addressId": 2,
+        "flatOrHouseNumber": 345,
+        "buildingName": "1/23,8th cross xyz city",
+        "landmark": "xyz",
+        "village": "xyz",
+        "taluk": "Bichkuna",
+        "district": "telengana",
+        "state": "telangana",
+        "pincode": "12345"
+      },
+      "connectionType": "NON_INDUSTRIAL",
+      "applicationDate": "2023-01-28T14:54:26.772+00:00",
+      "connectionDate": "2023-01-28T14:54:26.772+00:00",
+      "connectionStatus": "ACTIVE"
+    }
+  }
+
+// Make payment 
+
+{
+  "billPayment": {
+  "billId": 1,
+  "billDate": "2023-01-28T15:16:33.373+00:00",
+  "billDueDate": null,
+  "unitsConsumed": 2330,
+  "billAmount": 10485,
+  "billForReading": {
+    "readingId": 1,
+    "unitsConsumed": 2330,
+    "readingPhoto": "Photo",
+    "readingDate": "2023-01-28T15:12:11.557+00:00",
+    "pricePerUnits": 4.5,
+    "readingForConnection": {
+      "connectionId": 4,
+      "consumerNumber": -6219690111159095000,
+      "customerConnection": {
+        "userId": 1,
+        "userName": "omp",
+        "password": "123456",
+        "aadhaarNumber": 2000123,
+        "firstName": "Om",
+        "middleName": "P",
+        "lastName": "Sharma",
+        "mobileNumber": "9900123189",
+        "email": "Xyz123@gmail.com",
+        "gender": "Male"
+      },
+      "connectionAddress": {
+        "addressId": 2,
+        "flatOrHouseNumber": 345,
+        "buildingName": "1/23,8th cross xyz city",
+        "landmark": "xyz",
+        "village": "xyz",
+        "taluk": "Bichkuna",
+        "district": "telengana",
+        "state": "telangana",
+        "pincode": "12345"
+      },
+      "connectionType": "NON_INDUSTRIAL",
+      "applicationDate": "2023-01-28T14:54:26.772+00:00",
+      "connectionDate": "2023-01-28T14:54:26.772+00:00",
+      "connectionStatus": "ACTIVE"
+    }
+  }
+},
+    "billId": 25,
+    "unitsConsumed": 2330
+  },
+  "latePaymentCharges": 43,
+  "paymentDate": "2023-01-28T15:48:39.378Z",
+  "paymentId": 2000,
+  "paymentMode": "CREDIT",
+  "status": "SUCCESS",
+  "totalPaid": 10485
+}
